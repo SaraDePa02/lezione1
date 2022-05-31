@@ -36,10 +36,12 @@ li.special a{
     border: 5px solid black;
   }
 
-  tabel{
+  table{
       table-layout: fixed;
       width: 100%;
   }
+  th, td
+
 
   thead th:nth-child(1){
       width: 20%
@@ -48,3 +50,18 @@ li.special a{
   thead th:nth-child(2){
     width: 60%
 }
+
+caption {
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: antiquewhite;
+
+}
+ tbody tr :hover{
+     background-color: bisque;
+     cursor: pointer;
+
+ }
+ tfoot th{
+     background-color: darkgray;
+ }
