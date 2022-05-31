@@ -1,0 +1,50 @@
+/*
+commenti
+*/
+
+h1 {
+    color: blueviolet;
+
+}
+body {
+    color: hotpink;
+}
+
+
+
+menu {
+    list-style: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.special a{
+    color: aquamarine;
+} 
+
+/*menu a {
+    background-color: darkmagenta;
+}*/
+
+.box {
+    width: 350px;
+    height: 150px;
+    margin: 10px auto ;/*mette centrale*/
+    padding: 25px;
+    border: 5px solid black;
+  }
+
+  tabel{
+      table-layout: fixed;
+      width: 100%;
+  }
+
+  thead th:nth-child(1){
+      width: 20%
+  }
+
+  thead th:nth-child(2){
+    width: 60%
+}
